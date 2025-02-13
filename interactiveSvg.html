@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Emilie Sannoms liv</title>
+    <script type="text/javascript" src="interactiveSvg.js"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      img {
+        max-width: 100%;
+      }
+      article {
+        width: 40vw;
+      }
+      circle:hover {
+        cursor: pointer;
+        fill: rgb(248, 103, 62);
+      }
+      #container {
+        display: grid;
+      }
+      #map {
+        grid-area: 1/1;
+      }
+      #info {
+        visibility: hidden;
+        grid-area: 1/1;
+        place-self: center;
+        background-color: white;
+        padding: 10px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section id="container">
+      <div id="map"></div>
+      <article id="info">
+        <p></p>
+        <img src="" alt="" />
+      </article>
+    </section>
+  </body>
+</html>

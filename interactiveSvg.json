@@ -1,0 +1,43 @@
+[
+    {
+      "sted":"punkt1",
+      "tekst":"Tekst omkring et stunt her 1",
+      "billede":"eckersberg"
+    },
+    {
+      "sted":"punkt2",
+      "tekst":"Tekst omkring et stunt her 2",
+      "billede":"ib"
+    },
+    {
+      "sted":"punkt3",
+      "tekst":"Tekst omkring et stunt her 3",
+      "billede":"bonde"
+    },
+    {
+      "sted":"punkt4",
+      "tekst":"Tekst omkring et stunt her 4",
+      "billede":"heerup"
+    },
+    {
+        "sted":"punkt5",
+        "tekst":"Tekst omkring et stunt her 5",
+        "billede":"heerup"
+      },
+      {
+        "sted":"punkt6",
+        "tekst":"Tekst omkring et stunt her 6",
+        "billede":"heerup"
+      },
+      {
+        "sted":"punkt7",
+        "tekst":"Tekst omkring et stunt her 7",
+        "billede":"heerup"
+      },
+      {
+        "sted":"punkt8",
+        "tekst":"Tekst omkring et stunt her 8",
+        "billede":"heerup"
+      }
+
+    ]
