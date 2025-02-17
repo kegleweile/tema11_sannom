@@ -1,43 +1,42 @@
 [
-    {
-      "sted":"punkt1",
-      "tekst":"Tekst omkring et stunt her 1",
-      "billede":"eckersberg"
-    },
-    {
-      "sted":"punkt2",
-      "tekst":"Tekst omkring et stunt her 2",
-      "billede":"ib"
-    },
-    {
-      "sted":"punkt3",
-      "tekst":"Tekst omkring et stunt her 3",
-      "billede":"bonde"
-    },
-    {
-      "sted":"punkt4",
-      "tekst":"Tekst omkring et stunt her 4",
-      "billede":"heerup"
-    },
-    {
-        "sted":"punkt5",
-        "tekst":"Tekst omkring et stunt her 5",
-        "billede":"heerup"
-      },
-      {
-        "sted":"punkt6",
-        "tekst":"Tekst omkring et stunt her 6",
-        "billede":"heerup"
-      },
-      {
-        "sted":"punkt7",
-        "tekst":"Tekst omkring et stunt her 7",
-        "billede":"heerup"
-      },
-      {
-        "sted":"punkt8",
-        "tekst":"Tekst omkring et stunt her 8",
-        "billede":"heerup"
-      }
-
-    ]
+  {
+    "sted": "punkt1",
+    "tekst": "Grenaa",
+    "billede": "grenaa"
+  },
+  {
+    "sted": "punkt2",
+    "tekst": "Helsingør",
+    "billede": "hamlet"
+  },
+  {
+    "sted": "punkt3",
+    "tekst": "Odense",
+    "billede": "odense"
+  },
+  {
+    "sted": "punkt4",
+    "tekst": "Assistenskirkegården",
+    "billede": "grav"
+  },
+  {
+    "sted": "punkt5",
+    "tekst": "Hillerød",
+    "billede": "hillerod"
+  },
+  {
+    "sted": "punkt6",
+    "tekst": "Zoo",
+    "billede": "zoo"
+  },
+  {
+    "sted": "punkt7",
+    "tekst": "Stefansgade",
+    "billede": "stefansgade"
+  },
+  {
+    "sted": "punkt8",
+    "tekst": "Billund",
+    "billede": "billund"
+  }
+]
