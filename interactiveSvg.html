@@ -5,79 +5,6 @@
     <title>Emilie Sannoms Liv</title>
     <script type="text/javascript" src="interactiveSvg.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/lra2uxj.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/lra2uxj.css" />
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      img {
-        max-width: 100%;
-      }
-      article {
-        width: 55vw;
-      }
-      circle:hover {
-        cursor: pointer;
-        fill: rgb(248, 103, 62);
-      }
-      #container {
-        display: grid;
-      }
-      #map {
-        grid-area: 1/1;
-        display: flex;
-        justify-content: center;
-      }
-      #info {
-        visibility: hidden;
-        grid-area: 1/1;
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        column-gap: 10px;
-        place-self: center;
-        background-color: #fff;
-        padding: 20px;
-        border: 2px solid #003b17;
-        border-radius: 10px;
-      }
-      h3 {
-        margin-top: 0px;
-        margin-bottom: 0px;
-
-        font-size: 24px;
-        color: #003b17;
-      }
-      p.tiny {
-        font-size: 12px;
-        margin-top: 5px;
-      }
-      p {
-        line-height: 150%;
-        font-size: 16px;
-        color: #003b17;
-      }
-      h3,
-      p {
-        font-family: "poppins", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-      }
-
-      @media (max-width: 900px) {
-        article {
-          width: 90vw;
-        }
-        h3 {
-          font-size: 16px;
-        }
-        p {
-          font-size: 12px;
-        }
-        p.tiny {
-          margin-bottom: 5px;
-        }
-      }
-    </style>
   </head>
 
   <body>
@@ -99,3 +26,79 @@
     <h2>Video</h2>
   </body>
 </html>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #f0f5ee;
+  }
+  img {
+    max-width: 100%;
+  }
+  article {
+    width: 48vw;
+  }
+  #points path:hover {
+    cursor: pointer;
+    fill: #ea579c;
+  }
+  #container {
+    display: grid;
+  }
+  #map {
+    grid-area: 1/1;
+    display: flex;
+    justify-content: center;
+  }
+  #info {
+    visibility: hidden;
+    grid-area: 1/1;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+    place-self: center;
+    background-color: #f0f5ee;
+    padding: 20px;
+    border: 2px solid #003b17;
+    border-radius: 10px;
+  }
+  h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #003b17;
+  }
+  p.tiny {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  p {
+    line-height: 150%;
+    font-weight: 300;
+    font-size: 16px;
+    color: #003b17;
+  }
+  h3,
+  p {
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+  }
+
+  @media (max-width: 900px) {
+    article {
+      width: 90vw;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 12px;
+    }
+    p.tiny {
+      margin-bottom: 5px;
+    }
+  }
+</style>
