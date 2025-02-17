@@ -5,44 +5,100 @@
     <title>Emilie Sannoms Liv</title>
     <script type="text/javascript" src="interactiveSvg.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/lra2uxj.css" />
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      img {
-        max-width: 100%;
-      }
-      article {
-        width: 25vw;
-      }
-      circle:hover {
-        cursor: pointer;
-        fill: rgb(248, 103, 62);
-      }
-      #container {
-        display: grid;
-      }
-      #map {
-        grid-area: 1/1;
-      }
-      #info {
-        visibility: hidden;
-        grid-area: 1/1;
-        place-self: center;
-        background-color: antiquewhite;
-        padding: 10px;
-        border: 1px solid #9a0019;
-      }
-    </style>
   </head>
 
   <body>
+    <h1>Emilie Sannom</h1>
+    <h2>Lokationer</h2>
     <section id="container">
       <div id="map"></div>
       <article id="info">
-        <p></p>
-        <img src="" alt="" />
+        <div>
+          <img src="" alt="" />
+        </div>
+        <div id="tekst">
+          <h3></h3>
+          <p class="tiny"></p>
+          <p></p>
+        </div>
       </article>
     </section>
+    <h2>Video</h2>
   </body>
 </html>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #f0f5ee;
+  }
+  img {
+    max-width: 100%;
+  }
+  article {
+    width: 48vw;
+  }
+  #points path:hover {
+    cursor: pointer;
+    fill: #ea579c;
+  }
+  #container {
+    display: grid;
+  }
+  #map {
+    grid-area: 1/1;
+    display: flex;
+    justify-content: center;
+  }
+  #info {
+    visibility: hidden;
+    grid-area: 1/1;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+    place-self: center;
+    background-color: #f0f5ee;
+    padding: 20px;
+    border: 2px solid #003b17;
+    border-radius: 10px;
+  }
+  h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #003b17;
+  }
+  p.tiny {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  p {
+    line-height: 150%;
+    font-weight: 300;
+    font-size: 16px;
+    color: #003b17;
+  }
+  h3,
+  p {
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+  }
+
+  @media (max-width: 900px) {
+    article {
+      width: 90vw;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 12px;
+    }
+    p.tiny {
+      margin-bottom: 5px;
+    }
+  }
+</style>
