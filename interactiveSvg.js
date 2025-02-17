@@ -57,7 +57,9 @@ async function runProgram() {
       //--------------------------------------------
 
       if (selectedID == objekt.sted) {
-        document.querySelector("#info p").textContent = objekt.tekst;
+        document.querySelector("#info h3").textContent = objekt.overskrift;
+        document.querySelector("#info p.tiny").textContent = objekt.lokation;
+        document.querySelector("#info p:not(.tiny)").textContent = objekt.tekst;
         document.querySelector("#info img").src =
           "/billeder/" + objekt.billede + ".webp";
         document.querySelector("#info ").addEventListener("click", function () {
