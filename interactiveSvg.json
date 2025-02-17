@@ -1,42 +1,42 @@
 [
   {
-    "sted": "punkt1",
-    "tekst": "Grenaa",
+    "sted": "Grenaa, 30. august 1931",
+    "tekst": "Da Emilie var 44 lavede hun sit sidste stunt. Hun hoppede ud af et fly fra 600m højde og foran 8000 tilskuere. Hun havde en ny slags faldskærm på, men denne foldede sig ikke ud da hun trak i snoren. Derfor døde hun på stedet, og endte sin karriere i Grenaa.",
     "billede": "grenaa"
   },
   {
-    "sted": "punkt2",
-    "tekst": "Helsingør",
-    "billede": "hamlet"
-  },
-  {
-    "sted": "punkt3",
-    "tekst": "Odense",
-    "billede": "odense"
-  },
-  {
-    "sted": "punkt4",
-    "tekst": "Assistenskirkegården",
-    "billede": "grav"
-  },
-  {
-    "sted": "punkt5",
-    "tekst": "Hillerød",
-    "billede": "hillerod"
-  },
-  {
-    "sted": "punkt6",
-    "tekst": "Zoo",
-    "billede": "zoo"
-  },
-  {
-    "sted": "punkt7",
-    "tekst": "Stefansgade",
+    "sted": "Stefansgade, København",
+    "tekst": "Emilie Sannom blev født d. 29. september 1886, og boede i Stefansgade på Nørrebro i København. Her blev hun boede med sine forældre i resten af hendes korte liv.",
     "billede": "stefansgade"
   },
   {
-    "sted": "punkt8",
-    "tekst": "Billund",
+    "sted": "Kronborg voldgrav, Helsingør",
+    "tekst": "Hamlet er en film fra 1911, der blev optaget på Kronborg i Helsingør. I denne film lavede Emilie sit første filmstunt, da hun hoppede direkte ned i voldgraven. ",
+    "billede": "hamlet"
+  },
+  {
+    "sted": "Assistens Kirkegård, København",
+    "tekst": "Emilie Sannom døde i 1931, og har siden da ligget begravet på Assistens Kirkegård i hjertet af Nørrebro i København. På den nederste del af hendes gravsten står ordene: “Frygten for døden var ikke saa stor, større var frygten for livet  paa jord.”",
+    "billede": "grav"
+  },
+  {
+    "sted": "Københavns Zoo",
+    "tekst": "Et af hendes mest spektskulære stunts var, da hun gik ind i et bur med en tiger for en filmscene. Selvom det hele var iscenesat, var det ekstremt farligt, da tigeren var uforudsigelige med sine reaktioner.",
+    "billede": "zoo"
+  },
+  {
+    "sted": "Frederiksborg Slot, Hillerød",
+    "tekst": "I 1907 fik Emillie Sannom hendes første filmrolle i filmen, “For En Kvindes Skyld”. Det var starten på hendes filmkarriere. Hun fascinerede publikumet med hednes frygtløshed og blev hurtigt en af Danmarks første store kvindelige filmstjerner.",
+    "billede": "hilleroed"
+  },
+  {
+    "sted": "Odense, Fyn",
+    "tekst": "Hun lå bundet fast mellem skinnerne i en scene, mens toget kørte hen over hende uden, hun bkev ramt. Blot en lille bevægelse kunne have resulteret i et kæmpe uheld, men det viste kun hendes ekstreme mod og dedikation til hendes arbejde.",
+    "billede": "odense"
+  },
+  {
+    "sted": "Billund, Jylland",
+    "tekst": "Emilie Sannom udførte et farligt stunt som en del af en filmproduktion, hvor hun hang fast på en roterende møllevinge uden nogen form for sikkerhed.",
     "billede": "billund"
   }
 ]
