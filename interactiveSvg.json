@@ -29,17 +29,17 @@
   },
   {
     "sted": "punkt5",
-    "overskrift": "Lukket inde med en tiger",
-    "lokation": "KØBENHAVN ZOO, KØBENHAVN",
-    "tekst": "Et af hendes mest spektskulære stunts var, da hun gik ind i et bur med en tiger for en filmscene. Selvom det hele var iscenesat, var det ekstremt farligt, da tigeren var uforudsigelige med sine reaktioner.",
-    "billede": "zoo"
-  },
-  {
-    "sted": "punkt6",
     "overskrift": "Første filmrolle",
     "lokation": "FREDERIKSBORG SLOT, HILLERØD",
     "tekst": "I 1907 fik Emillie Sannom hendes første filmrolle i filmen, “For En Kvindes Skyld”. Det var starten på hendes filmkarriere. Hun fascinerede publikumet med hendes frygtløshed og blev hurtigt en af Danmarks første store kvindelige filmstjerner.",
     "billede": "hilleroed"
+  },
+  {
+    "sted": "punkt6",
+    "overskrift": "Lukket inde med en tiger",
+    "lokation": "KØBENHAVN ZOO, KØBENHAVN",
+    "tekst": "Et af hendes mest spektskulære stunts var, da hun gik ind i et bur med en tiger for en filmscene. Selvom det hele var iscenesat, var det ekstremt farligt, da tigeren var uforudsigelige med sine reaktioner.",
+    "billede": "zoo"
   },
   {
     "sted": "punkt7",
