@@ -8,13 +8,14 @@
   </head>
 
   <body>
-    <h1>Emilie Sannom</h1>
-    <h2>Lokationer</h2>
+    <img src="billeder/sannom_text.svg" alt="Emilie Sannom" class="title" />
+    <img src="billeder/h2.svg" alt="Udforsk Emilie Sannoms Liv" class="h2" />
+    <p>Klik rund på kortet for at læse om Sannoms største bedrifter</p>
     <section id="container">
       <div id="map"></div>
       <article id="info">
         <div>
-          <img src="" alt="" />
+          <img src="" alt="" class="box_img" />
         </div>
         <div id="tekst">
           <h3></h3>
@@ -23,7 +24,11 @@
         </div>
       </article>
     </section>
-    <h2>Video</h2>
+    <img
+      src="billeder/h2_2.svg"
+      alt="Se Mere om Emilie Sannoms Liv Her"
+      class="h2"
+    />
   </body>
 </html>
 
@@ -33,9 +38,24 @@
   }
   body {
     background-color: #f0f5ee;
+    margin: 40px;
   }
   img {
     max-width: 100%;
+  }
+  img.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 80vw;
+  }
+  img.h2 {
+    margin-top: 150px;
+    margin-bottom: 0px;
+  }
+  img.box_img {
+    border-radius: 10px;
   }
   article {
     width: 48vw;
@@ -61,7 +81,7 @@
     place-self: center;
     background-color: #f0f5ee;
     padding: 20px;
-    border: 2px solid #003b17;
+    border: 1px solid #003b17;
     border-radius: 10px;
   }
   h3 {
